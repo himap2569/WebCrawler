@@ -86,7 +86,7 @@ Generated plots for crawl analysis:
 
 ### 3. Generate visualizations:
 
-  `python enhanced_visualizations.py`
+  `python3 visualizations.py`
 
 ## Outputs:
 Extracted data: web_archive.json\
