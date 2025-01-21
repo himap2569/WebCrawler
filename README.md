@@ -59,26 +59,26 @@ The project generates detailed visualizations for:
 ```
 statistics.txt: Provides crawl statistics. Example:
 
-    Total URLs Crawled: 1000\
-    Total Books Extracted: 965\
-    Duration: 20.52 minutes\
+    Total URLs Crawled: 1000
+    Total Books Extracted: 965
+    Duration: 20.52 minutes
     Pages Per Minute: 48.74
 
 2. Visualizations
 
 Generated plots for crawl analysis:
 
-    crawl_speed_over_time.png: Crawl speed visualization.\
-    ratio_of_urls_crawled.png: Pie chart showing crawl completion ratio.\
-    books_vs_urls_crawled.png: Bar chart comparing crawled URLs and extracted books.\
+    crawl_speed_over_time.png: Crawl speed visualization.
+    ratio_of_urls_crawled.png: Pie chart showing crawl completion ratio.
+    books_vs_urls_crawled.png: Bar chart comparing crawled URLs and extracted books.
     crawl_completion_percentage.png: Crawl completion percentage.
 
 ## Running the Project
 
 ### 1. Clone the repository:
 
-`git clone https://github.com/yourusername/book-crawler.git
-cd book-crawler`
+`git clone https://github.com/yourusername/book-crawler.git`
+`cd book-crawler`
 
 ### 2. Start the Scrapy spider:
 
