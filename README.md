@@ -77,7 +77,7 @@ Generated plots for crawl analysis:
 
 ### 1. Clone the repository:
 
-`git clone https://github.com/yourusername/book-crawler.git`
+`git clone https://github.com/yourusername/book-crawler.git`\
 `cd book-crawler`
 
 ### 2. Start the Scrapy spider:
