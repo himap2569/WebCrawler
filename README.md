@@ -44,7 +44,7 @@ The project generates detailed visualizations for:
 1. Data Files
 
     web_archive.json: Contains structured data for all extracted books. Example:
-
+```json
 [
     {
         "title": "A Light in the Attic",
@@ -56,21 +56,21 @@ The project generates detailed visualizations for:
         "url": "http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html"
     }
 ]
-
+```
 statistics.txt: Provides crawl statistics. Example:
 
-    Total URLs Crawled: 1000
-    Total Books Extracted: 965
-    Duration: 20.52 minutes
+    Total URLs Crawled: 1000\
+    Total Books Extracted: 965\
+    Duration: 20.52 minutes\
     Pages Per Minute: 48.74
 
 2. Visualizations
 
 Generated plots for crawl analysis:
 
-    crawl_speed_over_time.png: Crawl speed visualization.
-    ratio_of_urls_crawled.png: Pie chart showing crawl completion ratio.
-    books_vs_urls_crawled.png: Bar chart comparing crawled URLs and extracted books.
+    crawl_speed_over_time.png: Crawl speed visualization.\
+    ratio_of_urls_crawled.png: Pie chart showing crawl completion ratio.\
+    books_vs_urls_crawled.png: Bar chart comparing crawled URLs and extracted books.\
     crawl_completion_percentage.png: Crawl completion percentage.
 
 ## Running the Project
@@ -89,7 +89,7 @@ cd book-crawler`
   `python enhanced_visualizations.py`
 
 ## Outputs:
-Extracted data: web_archive.json
-Crawl statistics: statistics.txt
+Extracted data: web_archive.json\
+Crawl statistics: statistics.txt\
 Visualizations: PNG files in the project directory.
 
